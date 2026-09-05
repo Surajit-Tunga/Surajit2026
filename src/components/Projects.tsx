@@ -2,7 +2,7 @@ import { useState } from "react";
 import { projects } from "../content.js";
 import WindowCard from "./WindowCard.js";
 
-const LEVELS = ["All", "Level 0", "Level 1", "Level 2", "Level 3", "Level 4"];
+const LEVELS = ["All", "Expert", "Advanced", "Intermediate", "Beginner", "Starter"];
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -10,7 +10,7 @@ export default function Projects() {
   const filtered =
     activeFilter === "All"
       ? projects
-      : projects.filter((p) => p.level === parseInt(activeFilter.split(" ")[1]));
+      : projects.filter((p) => p.level === activeFilter);
 
   return (
     <div id="projects" className="projects-strip">
@@ -34,7 +34,7 @@ export default function Projects() {
             filtered.map((proj) => (
               <WindowCard key={proj.id} title={proj.name} className="project-card">
                 <span className="project-name">{proj.name}</span>
-                <span className="project-level">Level {proj.level}</span>
+                <span className="project-level">{proj.level}</span>
                 <div className="project-stack">
                   {proj.techStack.map((t) => (
                     <span key={t} className="stack-tag">{t}</span>

@@ -156,102 +156,82 @@ export const experience = [
 
 export const projects = [
   {
-    id: "llm-router",
-    name: "LLM Router",
-    techStack: ["Python", "FastAPI", "Redis", "LangChain"],
+    id: 4,
+    name: "ResumeXpert",
+    techStack: ["MongoDB", "Express", "React", "Node.js"],
     description:
-      "An intelligent query router that dispatches prompts to the cheapest model capable of answering them — GPT-4o, Claude 3, or Mistral — based on semantic difficulty scoring.",
-    github: "https://github.com/alexrivera/llm-router",
-    level: 4,
+      "Interactive resume builder with live preview, user authentication, and PDF export for professional resume creation.",
+    github: "https://github.com/Surajit-Tunga/Resume-Builder-MERN",
+    level: "Advanced",
   },
   {
-    id: "retro-kanban",
-    name: "RetroBoard",
-    techStack: ["React", "TypeScript", "Supabase", "Tailwind"],
+    id: 5,
+    name: "AI Code Reviewer",
+    techStack: ["MongoDB", "Express", "React", "Node.js", "Gemini API"],
     description:
-      "A real-time Kanban board with a retro pixel-art theme. Supports drag-and-drop, multi-user collaboration, and offline-first sync via service workers.",
-    github: "https://github.com/alexrivera/retroboard",
-    level: 3,
+      "AI-driven code reviewer using Gemini API for real-time code analysis, feedback, and improvement suggestions.",
+    github: "https://github.com/Surajit-Tunga/Code-Reviewer-MERN-AI",
+    level: "Advanced",
   },
   {
-    id: "code-review-ai",
-    name: "CodeLens AI",
-    techStack: ["Python", "OpenAI API", "GitHub Actions", "Flask"],
+    id: 6,
+    name: "Fest.io",
+    techStack: ["React", "TailwindCSS"],
     description:
-      "GitHub bot that posts AI-powered code-review comments on every pull request. Flags security issues, style violations, and performance anti-patterns.",
-    github: "https://github.com/alexrivera/codelens-ai",
-    level: 3,
+      "Festival management platform with event scheduling, ticketing, and user management features.",
+    github: "https://github.com/Surajit-Tunga/Fest.io",
+    level: "Intermediate",
   },
   {
-    id: "ds-notebook",
-    name: "DataFlow Studio",
-    techStack: ["React", "D3.js", "Python", "Jupyter"],
+    id: 7,
+    name: "Metagame",
+    techStack: ["React", "GSAP", "TailwindCSS"],
     description:
-      "A browser-based notebook interface that embeds live D3 visualizations alongside Python kernels. Built for data science teams who hate switching between tools.",
-    github: "https://github.com/alexrivera/dataflow-studio",
-    level: 2,
-  },
-  {
-    id: "portfolio-gen",
-    name: "PortfolioOS",
-    techStack: ["React", "CSS", "Vite"],
-    description:
-      "A retro-OS-themed portfolio generator. Input your content JSON and get a fully styled website with window chrome, draggable cards, and boot animations.",
-    github: "https://github.com/alexrivera/portfolio-os",
-    level: 1,
-  },
-  {
-    id: "weather-cli",
-    name: "Skye CLI",
-    techStack: ["Node.js", "Open-Meteo API"],
-    description:
-      "Terminal weather tool with ASCII art forecasts, hourly breakdowns, and a retro color scheme. Zero dependencies beyond the standard Node.js runtime.",
-    github: "https://github.com/alexrivera/skye-cli",
-    level: 0,
+      "Visually engaging web interface showcasing smooth GSAP animations and modern design transitions.",
+    github: "https://github.com/Surajit-Tunga/Metagame",
+    level: "Beginner",
   },
 ];
 
 export const achievements = [
   {
-    id: "neurips",
-    year: "2026",
-    title: "NeurIPS 2026 — Paper Submission Accepted",
+    id: 5,
+    year: "April 2026",
+    title: "Patent Publication",
+    url: "https://lnkd.in/p/gbHTPKT9",
     description:
-      "Co-authored 'LoRA-Lite: Efficient Fine-Tuning at 8% Compute' — accepted to NeurIPS 2026 main track.",
+      "Co-inventor of the Indian patent 'Speaking System for Mute People by Hand Gesture Using Image Processing' (Application No. 202631019297 A). Developed a machine learning and image processing-based system that translates sign language gestures into text and audible speech in real time.",
   },
   {
-    id: "stripe-return",
-    year: "2025",
-    title: "Stripe Return Offer",
+    id: 4,
+    year: "April 2026",
+    title: "Journal of Geometics, ISRO",
+    url: "https://onlinejog.org/index.php/journal_of_geomatics/article/view/300",
     description:
-      "Received a full-time return offer from Stripe after the summer internship — accepted for post-graduation.",
+      "Served as a primary author in the development of “Dhristhi”, an automated Web-GIS platform for near real-time Land Use Land Cover (LULC) monitoring and change detection. Contributed to integrating U-Net based deep learning segmentation, Object-Based Post-Classification Comparison (OBC), and Random Forest based validation using spectral indices such as NDVI and NDBI. The system provides a fully automated workflow for detecting urban sprawl and deforestation, generating alerts and reports with minimal technical intervention. Achieved 92.1% overall accuracy with strong performance in anthropogenic change detection.",
   },
   {
-    id: "hackathon",
-    year: "2024",
-    title: "HackMIT Grand Prize Winner",
+    id: 3,
+    year: "March 2026",
+    title: "IHMMC 2026",
+    url: "https://lnkd.in/p/gbZ4wDPb",
     description:
-      "Won the HackMIT 2024 grand prize ($10 000) for LLM Router, beating 400+ teams in a 36-hour sprint.",
+      "Led the team to develop an innovative project — VitaSence. The project secured 6th position at IHMMC 2026 hosted by Asansol Engineering College.",
   },
   {
-    id: "open-source",
-    year: "2023",
-    title: "1 000+ GitHub Stars",
+    id: 2,
+    year: "April 2025",
+    title: "Smart Bengal Hackathon 2025",
+    url: "https://lnkd.in/p/gzWYTExb",
     description:
-      "RetroBoard crossed 1 000 GitHub stars and was featured in the React weekly newsletter.",
+      "Led the team as Full Stack Developer at Smart Bengal Hackathon 2025 organized by RCC Institute of Information Technology. We built an AI-powered image processing system to detect mobile phone usage in restricted areas, showcasing innovation and teamwork.",
   },
   {
-    id: "cgpa",
-    year: "2024",
-    title: "IIT Delhi Department Rank 1",
+    id: 1,
+    year: "March 2025",
+    title: "IHMMC 2025",
+    url: "https://lnkd.in/p/gqsCb9yB",
     description:
-      "Graduated first in the Computer Science department with a CGPA of 9.4 / 10.",
-  },
-  {
-    id: "jee",
-    year: "2020",
-    title: "JEE Advanced AIR 47",
-    description:
-      "Secured All India Rank 47 in JEE Advanced 2020, qualifying for admission to IIT Delhi.",
+      "Led the team to develop an innovative assistive technology — a speaking system for mute individuals using hand gesture recognition. The project secured 10th position at IHMMC 2025 hosted by Asansol Engineering College.",
   },
 ];

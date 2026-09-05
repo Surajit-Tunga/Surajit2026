@@ -13,6 +13,17 @@ export default function Journey() {
                 <span className="timeline-year">{item.year}</span>
                 <span className="timeline-title">{item.title}</span>
                 <p className="timeline-desc">{item.description}</p>
+                {item.url && (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-ghost btn-sm"
+                    style={{ width: "fit-content" }}
+                  >
+                    See More ↗
+                  </a>
+                )}
               </WindowCard>
             </div>
           ))}
