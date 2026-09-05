@@ -670,7 +670,7 @@ body {
 }
 
 /* ─── Journey / Achievements ───────────────────────────────── */
-.journey-strip { background: var(--mint); border-top: var(--border); }
+.journey-strip { background: var(--bg-warm); border-top: var(--border); }
 
 .timeline {
   position: relative;
