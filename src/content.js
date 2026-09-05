@@ -1,44 +1,45 @@
-export const name = "Alex Rivera";
-export const role = "Full-Stack Developer & ML Enthusiast";
+import profilePic from "/imgs/FormalAI.jpeg";
+
+export const name = "Surajit Tunga";
+export const role = "Full-Stack Developer & AI Enthusiast";
 export const description =
-  "I craft end-to-end digital experiences — from slick UIs to scalable backends and everything in between. Obsessed with clean code, open source, and the occasional algorithmic rabbit hole.";
-export const profileImage =
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format";
-export const email = "alex.rivera@example.com";
-export const whatsapp = "https://wa.me/919876543210";
+  "Passionate about building scalable web applications and exploring the frontiers of artificial intelligence.";
+export const profileImage = profilePic;
+export const email = "surajittunga2005@gmail.com";
+export const whatsapp = "https://wa.me/918972195682";
 export const location = "Kolkata, INDIA";
 export const contactLinks = [
   {
     id: "mail",
     label: "Email",
-    value: "alex.rivera@example.com",
-    href: "mailto:alex.rivera@example.com",
-    icon: "https://cdn.simpleicons.org/gmail/1A1A1A",
+    value: "surajittunga2005@gmail.com",
+    href: "mailto:surajittunga2005@gmail.com",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/gmail.svg",
   },
   {
     id: "whatsapp",
     label: "WhatsApp",
-    value: "+91 98765 43210",
-    href: "https://wa.me/919876543210",
-    icon: "https://cdn.simpleicons.org/whatsapp/1A1A1A",
-  },
+    value: "+91 89721 95682",
+    href: "https://wa.me/918972195682",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/whatsapp.svg",
+  }, 
   {
     id: "linkedin",
     label: "LinkedIn",
-    value: "linkedin.com/in/alexrivera",
-    href: "https://linkedin.com/in/alexrivera",
-    icon: "https://cdn.simpleicons.org/linkedin/1A1A1A",
+    value: "linkedin.com/in/surajittunga/",
+    href: "https://www.linkedin.com/in/surajittunga/",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/linkedin.svg",
   },
   {
     id: "github",
     label: "GitHub",
-    value: "github.com/alexrivera",
-    href: "https://github.com/alexrivera",
-    icon: "https://cdn.simpleicons.org/github/1A1A1A",
+    value: "github.com/Surajit-Tunga",
+    href: "https://github.com/Surajit-Tunga",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/github.svg",
   },
 ];
 export const footerText =
-  "Designed & built with ☕ by Alex Rivera · 2026 · All rights reserved.";
+  "Designed & built with ☕ by Surajit Tunga · 2026 · All rights reserved.";
 export const experienceFallback =
   "No professional experience yet — but I'm actively seeking opportunities! Reach out via the contact section below.";
 
@@ -46,117 +47,110 @@ export const socials = [
   {
     id: "linkedin",
     label: "LinkedIn",
-    url: "https://linkedin.com/in/alexrivera",
-    icon: "https://cdn.simpleicons.org/linkedin/1A1A1A",
+    url: "https://linkedin.com/in/surajittunga",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/linkedin.svg",
   },
   {
     id: "github",
     label: "GitHub",
-    url: "https://github.com/alexrivera",
-    icon: "https://cdn.simpleicons.org/github/1A1A1A",
+    url: "https://github.com/Surajit-Tunga",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/github.svg",
   },
   {
     id: "leetcode",
     label: "LeetCode",
-    url: "https://leetcode.com/alexrivera",
-    icon: "https://cdn.simpleicons.org/leetcode/1A1A1A",
+    url: "https://leetcode.com/u/surajittunga07/",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/leetcode.svg",
   },
   {
     id: "scholar",
     label: "Google Scholar",
-    url: "https://scholar.google.com/citations?user=alexrivera",
-    icon: "https://cdn.simpleicons.org/googlescholar/1A1A1A",
+    url: "https://scholar.google.com/citations?user=bzXPQOcAAAAJ&hl=en",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/googlescholar.svg",
   },
 ];
 
 export const education = [
   {
-    id: "masters",
-    institute: "MIT — Massachusetts Institute of Technology",
-    course: "M.S. in Computer Science",
-    score: "GPA: 4.0 / 4.0",
-    duration: "Sep 2024 – May 2026",
-  },
-  {
     id: "bachelors",
-    institute: "IIT Delhi",
-    course: "B.Tech. in Computer Science & Engineering",
-    score: "CGPA: 9.4 / 10",
-    duration: "Aug 2020 – May 2024",
+    institute: "Guru Nanak Institute of Technology, Kolkata",
+    course: "B.Tech. in Electronics and Communication Engineering",
+    score: "CGPA: 8.56 / 10",
+    duration: "Aug 2023 – June 2027",
   },
 ];
 
 export const skills = [
   {
+    domain: "Programming",
+    items: [
+      { name: "JAVA", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openjdk.svg" },
+      { name: "JavaScript", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/javascript.svg" },
+      //{ name: "TypeScript", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/typescript.svg" },
+      { name: "Python", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/python.svg" },
+      { name: "SQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/mysql.svg" },
+    ],
+  },
+  {
     domain: "Frontend",
     items: [
-      { name: "React", icon: "https://cdn.simpleicons.org/react/1A1A1A" },
-      { name: "Next.js", icon: "https://cdn.simpleicons.org/nextdotjs/1A1A1A" },
-      { name: "TypeScript", icon: "https://cdn.simpleicons.org/typescript/1A1A1A" },
-      { name: "CSS / Tailwind", icon: "https://cdn.simpleicons.org/tailwindcss/1A1A1A" },
-      { name: "Figma", icon: "https://cdn.simpleicons.org/figma/1A1A1A" },
+      { name: "HTML", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/html5.svg" },
+      { name: "CSS", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/css3.svg" },
+      { name: "React.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/react.svg" },
+      { name: "TailwindCSS", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/tailwindcss.svg" },
+      //{ name: "SCSS", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/sass.svg" },
     ],
   },
   {
-    domain: "Backend",
+    domain: "Backendend",
     items: [
-      { name: "Node.js", icon: "https://cdn.simpleicons.org/nodedotjs/1A1A1A" },
-      { name: "Python", icon: "https://cdn.simpleicons.org/python/1A1A1A" },
-      { name: "FastAPI", icon: "https://cdn.simpleicons.org/fastapi/1A1A1A" },
-      { name: "PostgreSQL", icon: "https://cdn.simpleicons.org/postgresql/1A1A1A" },
-      { name: "Redis", icon: "https://cdn.simpleicons.org/redis/1A1A1A" },
+      // { name: "Spring", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/spring.svg" },
+      // { name: "SpringBoot", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/spring.svg" },
+      { name: "Node.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/nodedotjs.svg" },
+      { name: "Express.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/express.svg" },
+      { name: "REST API", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openapiinitiative.svg" },
+      //{ name: "FastAPI", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/fastapi.svg" },
     ],
   },
   {
-    domain: "ML / AI",
+    domain: "Database",
     items: [
-      { name: "PyTorch", icon: "https://cdn.simpleicons.org/pytorch/1A1A1A" },
-      { name: "HuggingFace", icon: "https://cdn.simpleicons.org/huggingface/1A1A1A" },
-      { name: "scikit-learn", icon: "https://cdn.simpleicons.org/scikitlearn/1A1A1A" },
-      { name: "LangChain", icon: "https://cdn.simpleicons.org/langchain/1A1A1A" },
+      { name: "MySQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/mysql.svg" },
+      { name: "MongoDB", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/mongodb.svg" },
+      //{ name: "Hibernate", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/hibernate.svg" },
+      //{ name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/postgresql.svg" },
+      //{ name: "Redis", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/redis.svg" },
     ],
   },
+  // {
+  //   domain: "AI Concepts",
+  //   items: [
+  //     { name: "LLM Fundamentals", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openai.svg" },
+  //     { name: "RAG", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/langchain.svg" },
+  //     { name: "AI Agents", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openai.svg" },
+  //     { name: "MCP", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/modelcontextprotocol.svg" },
+  //   ],
+  // },
   {
-    domain: "DevOps & Cloud",
+    domain: "Tools",
     items: [
-      { name: "Docker", icon: "https://cdn.simpleicons.org/docker/1A1A1A" },
-      { name: "AWS", icon: "https://cdn.simpleicons.org/amazonaws/1A1A1A" },
-      { name: "GitHub Actions", icon: "https://cdn.simpleicons.org/githubactions/1A1A1A" },
-      { name: "Terraform", icon: "https://cdn.simpleicons.org/terraform/1A1A1A" },
+      //{ name: "Docker", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/docker.svg" },
+      { name: "Postman", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/postman.svg" },
+      { name: "GitHub Actions", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/githubactions.svg" },
     ],
   },
 ];
 
 export const experience = [
   // {
-  //   id: "stripe",
-  //   company: "Stripe",
-  //   role: "Software Engineering Intern",
-  //   duration: "Jun 2025 – Aug 2025",
-  //   mode: "Hybrid · San Francisco, CA",
+  //   id: "intern",
+  //   company: "Indian Statistical Institute, Kolkata",
+  //   role: "Autumn Intern (AI)",
+  //   duration: "Sept 2026 – Nov 2026",
+  //   mode: "Hybrid · Kolkata, India",
   //   description:
   //     "Built a real-time fraud detection dashboard using React and WebSocket streaming. Reduced false positive rates by 18% by collaborating with the ML team to tune threshold models. Wrote a technical deep-dive that was published on the Stripe engineering blog.",
-  //   blogLink: "https://stripe.com/blog/fraud-dashboard-internship",
-  // },
-  // {
-  //   id: "research",
-  //   company: "MIT CSAIL",
-  //   role: "Graduate Research Assistant",
-  //   duration: "Sep 2024 – Present",
-  //   mode: "On-site · Cambridge, MA",
-  //   description:
-  //     "Researching efficient fine-tuning methods for large language models under Prof. Daniela Rus. Implemented LoRA adapters in PyTorch, achieving 94% of full fine-tune accuracy at 8% of the compute cost. Co-authoring a paper submitted to NeurIPS 2026.",
-  //   blogLink: null,
-  // },
-  // {
-  //   id: "freelance",
-  //   company: "Freelance",
-  //   role: "Full-Stack Developer",
-  //   duration: "Jan 2023 – Aug 2024",
-  //   mode: "Remote",
-  //   description:
-  //     "Delivered 12+ web applications for clients across e-commerce, edtech, and fintech verticals. Stack: Next.js, FastAPI, PostgreSQL, Stripe, and AWS. Maintained a 5-star rating on Upwork with an on-time delivery rate of 100%.",
-  //   blogLink: null,
+  //   //blogLink: "https://stripe.com/blog/fraud-dashboard-internship",
   // },
 ];
 
