@@ -311,6 +311,7 @@ body {
   flex-direction: column;
   gap: 12px;
   min-height: 190px;
+  text-align: left;
 }
 
 .terminal-line {
