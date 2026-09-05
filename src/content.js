@@ -128,36 +128,36 @@ export const skills = [
 ];
 
 export const experience = [
-  {
-    id: "stripe",
-    company: "Stripe",
-    role: "Software Engineering Intern",
-    duration: "Jun 2025 – Aug 2025",
-    mode: "Hybrid · San Francisco, CA",
-    description:
-      "Built a real-time fraud detection dashboard using React and WebSocket streaming. Reduced false positive rates by 18% by collaborating with the ML team to tune threshold models. Wrote a technical deep-dive that was published on the Stripe engineering blog.",
-    blogLink: "https://stripe.com/blog/fraud-dashboard-internship",
-  },
-  {
-    id: "research",
-    company: "MIT CSAIL",
-    role: "Graduate Research Assistant",
-    duration: "Sep 2024 – Present",
-    mode: "On-site · Cambridge, MA",
-    description:
-      "Researching efficient fine-tuning methods for large language models under Prof. Daniela Rus. Implemented LoRA adapters in PyTorch, achieving 94% of full fine-tune accuracy at 8% of the compute cost. Co-authoring a paper submitted to NeurIPS 2026.",
-    blogLink: null,
-  },
-  {
-    id: "freelance",
-    company: "Freelance",
-    role: "Full-Stack Developer",
-    duration: "Jan 2023 – Aug 2024",
-    mode: "Remote",
-    description:
-      "Delivered 12+ web applications for clients across e-commerce, edtech, and fintech verticals. Stack: Next.js, FastAPI, PostgreSQL, Stripe, and AWS. Maintained a 5-star rating on Upwork with an on-time delivery rate of 100%.",
-    blogLink: null,
-  },
+  // {
+  //   id: "stripe",
+  //   company: "Stripe",
+  //   role: "Software Engineering Intern",
+  //   duration: "Jun 2025 – Aug 2025",
+  //   mode: "Hybrid · San Francisco, CA",
+  //   description:
+  //     "Built a real-time fraud detection dashboard using React and WebSocket streaming. Reduced false positive rates by 18% by collaborating with the ML team to tune threshold models. Wrote a technical deep-dive that was published on the Stripe engineering blog.",
+  //   blogLink: "https://stripe.com/blog/fraud-dashboard-internship",
+  // },
+  // {
+  //   id: "research",
+  //   company: "MIT CSAIL",
+  //   role: "Graduate Research Assistant",
+  //   duration: "Sep 2024 – Present",
+  //   mode: "On-site · Cambridge, MA",
+  //   description:
+  //     "Researching efficient fine-tuning methods for large language models under Prof. Daniela Rus. Implemented LoRA adapters in PyTorch, achieving 94% of full fine-tune accuracy at 8% of the compute cost. Co-authoring a paper submitted to NeurIPS 2026.",
+  //   blogLink: null,
+  // },
+  // {
+  //   id: "freelance",
+  //   company: "Freelance",
+  //   role: "Full-Stack Developer",
+  //   duration: "Jan 2023 – Aug 2024",
+  //   mode: "Remote",
+  //   description:
+  //     "Delivered 12+ web applications for clients across e-commerce, edtech, and fintech verticals. Stack: Next.js, FastAPI, PostgreSQL, Stripe, and AWS. Maintained a 5-star rating on Upwork with an on-time delivery rate of 100%.",
+  //   blogLink: null,
+  // },
 ];
 
 export const projects = [
