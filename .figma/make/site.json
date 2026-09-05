@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a vibrant, retro-themed personal portfolio with dynamic sections for skills, projects, experience, and contact info, all data-driven for easy updates.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
