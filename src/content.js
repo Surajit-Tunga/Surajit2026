@@ -154,41 +154,100 @@ export const experience = [
 ];
 
 export const projects = [
+  // {
+  //   id: 10,
+  //   name: "Inshights",
+  //   techStack: ["MongoDB", "Express", "React", "Node.js"],
+  //   description:
+  //     "Inshights",
+  //   github: "https://github.com/Surajit-Tunga",
+  //   level: "Advanced",
+  // },
+  // {
+  //   id: 9,
+  //   name: "Resume ATS Score",
+  //   techStack: ["MongoDB", "Express", "React", "Node.js"],
+  //   description:
+  //     "Interactive resume ATS Checker with AI suggetions.",
+  //   github: "https://github.com/Surajit-Tunga",
+  //   level: "Advanced",
+  // },
   {
-    id: 4,
+    id: 8,
     name: "ResumeXpert",
     techStack: ["MongoDB", "Express", "React", "Node.js"],
     description:
       "Interactive resume builder with live preview, user authentication, and PDF export for professional resume creation.",
     github: "https://github.com/Surajit-Tunga/Resume-Builder-MERN",
-    level: "Advanced",
+    level: "Intermediate",
   },
   {
-    id: 5,
+    id: 7,
+    name: "Backend for Bank",
+    techStack: ["MongoDB", "Express", "Node.js"],
+    description:
+      "Backend for Bank.",
+    github: "https://github.com/Surajit-Tunga",
+    level: "Intermediate",
+  },
+  {
+    id: 6,
     name: "AI Code Reviewer",
     techStack: ["MongoDB", "Express", "React", "Node.js", "Gemini API"],
     description:
       "AI-driven code reviewer using Gemini API for real-time code analysis, feedback, and improvement suggestions.",
     github: "https://github.com/Surajit-Tunga/Code-Reviewer-MERN-AI",
-    level: "Advanced",
+    level: "Intermediate",
   },
   {
-    id: 6,
+    id: 5,
     name: "Fest.io",
     techStack: ["React", "TailwindCSS"],
     description:
       "Festival management platform with event scheduling, ticketing, and user management features.",
     github: "https://github.com/Surajit-Tunga/Fest.io",
-    level: "Intermediate",
+    live:"https://fest-io.vercel.app/",
+    level: "Beginner",
   },
   {
-    id: 7,
+    id: 4,
     name: "Metagame",
     techStack: ["React", "GSAP", "TailwindCSS"],
     description:
       "Visually engaging web interface showcasing smooth GSAP animations and modern design transitions.",
     github: "https://github.com/Surajit-Tunga/Metagame",
+    live: "https://gsap-page-umber.vercel.app/",
     level: "Beginner",
+  },
+  // {
+  //   id: 3,
+  //   name: "Day Planner",
+  //   techStack: ["HTML", "CSS", "JavaScript"],
+  //   description:
+  //     "Simple daily planner for organizing tasks, routines, and priorities in one place.",
+  //   github: "https://github.com/Surajit-Tunga",
+  //   live:"https://github.com/Surajit-Tunga",
+  //   level: "Starter",
+  // },
+  {
+    id: 2,
+    name: "Snake Game",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Classic arcade game built around score-chasing movement, food collection, and collision avoidance.",
+    github: "https://github.com/Surajit-Tunga/SNAKE_GAME",
+    live:"surajit-tunga.github.io/SNAKE_GAME/",
+    level: "Starter",
+  },
+  {
+    id: 1,
+    name: "Tik-Tac-Toe",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Quick two-player strategy game with a clean interface and simple turn-based gameplay.",
+    github: "https://github.com/Surajit-Tunga/Tic-Tac-toe",
+    live: "https://surajit-tunga.github.io/Tic-Tac-toe/",
+    level: "Starter",
   },
 ];
 

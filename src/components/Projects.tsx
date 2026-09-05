@@ -2,15 +2,12 @@ import { useState } from "react";
 import { projects } from "../content.js";
 import WindowCard from "./WindowCard.js";
 
-const LEVELS = ["All", "Expert", "Advanced", "Intermediate", "Beginner", "Starter"];
+const LEVELS = ["Intermediate", "Beginner", "Starter"]; // "Expert", "Advanced", 
 
 export default function Projects() {
-  const [activeFilter, setActiveFilter] = useState("All");
+  const [activeFilter, setActiveFilter] = useState(LEVELS[0]);
 
-  const filtered =
-    activeFilter === "All"
-      ? projects
-      : projects.filter((p) => p.level === activeFilter);
+  const filtered = projects.filter((p) => p.level === activeFilter);
 
   return (
     <div id="projects" className="projects-strip">
