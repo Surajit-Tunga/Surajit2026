@@ -1,10 +1,9 @@
-import profilePic from "/imgs/FormalAI.jpeg";
-
 export const name = "Surajit Tunga";
 export const role = "Full-Stack Developer & AI Enthusiast";
 export const description =
   "Passionate about building scalable web applications and exploring the frontiers of artificial intelligence.";
-export const profileImage = profilePic;
+export const profileImage =
+  "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=85";
 export const email = "surajittunga2005@gmail.com";
 export const whatsapp = "https://wa.me/918972195682";
 export const location = "Kolkata, INDIA";
