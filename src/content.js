@@ -1,9 +1,7 @@
 export const name = "Surajit Tunga";
-export const role = "Full-Stack Developer & AI Enthusiast";
+export const role = "Full-stack development & AI";
 export const description =
   "Passionate about building scalable web applications and exploring the frontiers of artificial intelligence.";
-export const profileImage =
-  "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=85";
 export const email = "surajittunga2005@gmail.com";
 export const whatsapp = "https://wa.me/918972195682";
 export const location = "Kolkata, INDIA";
@@ -141,16 +139,16 @@ export const skills = [
 ];
 
 export const experience = [
-  // {
-  //   id: "intern",
-  //   company: "Indian Statistical Institute, Kolkata",
-  //   role: "Autumn Intern (AI)",
-  //   duration: "Sept 2026 – Nov 2026",
-  //   mode: "Hybrid · Kolkata, India",
-  //   description:
-  //     "Built a real-time fraud detection dashboard using React and WebSocket streaming. Reduced false positive rates by 18% by collaborating with the ML team to tune threshold models. Wrote a technical deep-dive that was published on the Stripe engineering blog.",
-  //   //blogLink: "https://stripe.com/blog/fraud-dashboard-internship",
-  // },
+  {
+    id: "intern",
+    company: "Indian Statistical Institute, Kolkata",
+    role: "Autumn Intern (AI & Data Science)",
+    duration: "Sept 2026 – Nov 2026",
+    mode: "Remote · Kolkata, India",
+    description:
+      "",
+    //blogLink: "https://stripe.com/blog/fraud-dashboard-internship",
+  },
 ];
 
 export const projects = [
@@ -181,15 +179,15 @@ export const projects = [
     github: "https://github.com/Surajit-Tunga/Resume-Builder-MERN",
     level: "Intermediate",
   },
-  {
-    id: 7,
-    name: "Backend for Bank",
-    techStack: ["MongoDB", "Express", "Node.js"],
-    description:
-      "Backend for Bank.",
-    github: "https://github.com/Surajit-Tunga",
-    level: "Intermediate",
-  },
+  // {
+  //   id: 7,
+  //   name: "Backend for Bank",
+  //   techStack: ["MongoDB", "Express", "Node.js"],
+  //   description:
+  //     "Backend for Bank.",
+  //   github: "https://github.com/Surajit-Tunga",
+  //   level: "Intermediate",
+  // },
   {
     id: 6,
     name: "AI Code Reviewer",

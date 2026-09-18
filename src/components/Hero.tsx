@@ -20,7 +20,7 @@ export default function Hero() {
             <span className="role-badge">{role}</span>
             <p>{description}</p>
             <div className="hero-ctas">
-              <a href={mailtoHref} className="btn btn-primary">Connect via Mail</a>
+              <a href={mailtoHref} className="btn btn-primary">Connect</a>
               <a href="#projects" className="btn btn-secondary">View Projects</a>
             </div>
           </div>

@@ -13,8 +13,8 @@ export default function App() {
       <Nav />
       <div className="page-wrap">
         <Hero />
-        <Skills />
         <Experience />
+        <Skills />
         <Projects />
         <Journey />
         <Contact />
