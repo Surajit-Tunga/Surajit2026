@@ -4,7 +4,7 @@ import Hero from "./components/Hero.js";
 import Skills from "./components/Skills.js";
 import Experience from "./components/Experience.js";
 import Projects from "./components/Projects.js";
-import Journey from "./components/Journey.js";
+import Publications from "./components/Publications.js";
 import Contact from "./components/Contact.js";
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
         <Experience />
         <Skills />
         <Projects />
-        <Journey />
+        <Publications />
         <Contact />
       </div>
     </>

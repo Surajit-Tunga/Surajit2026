@@ -249,23 +249,28 @@ export const projects = [
   },
 ];
 
-export const achievements = [
+export const publications = [
   {
-    id: 5,
+    id: 2,
     year: "April 2026",
-    title: "Patent Publication",
-    url: "https://lnkd.in/p/gbHTPKT9",
-    description:
-      "Co-inventor of the Indian patent 'Speaking System for Mute People by Hand Gesture Using Image Processing' (Application No. 202631019297 A). Developed a machine learning and image processing-based system that translates sign language gestures into text and audible speech in real time.",
-  },
-  {
-    id: 4,
-    year: "April 2026",
-    title: "Journal of Geometics, ISRO",
+    title: "Dhristhi - Robust Change Detection, Monitoring, and Alert System on User-defined AOI using Multi-Temporal Sentinel-2 Satellite Imagery",
+    publisher: "Vol. 20 No. 1 (2026): Journal of Geomatics",
     url: "https://onlinejog.org/index.php/journal_of_geomatics/article/view/300",
     description:
       "Served as a primary author in the development of “Dhristhi”, an automated Web-GIS platform for near real-time Land Use Land Cover (LULC) monitoring and change detection. Contributed to integrating U-Net based deep learning segmentation, Object-Based Post-Classification Comparison (OBC), and Random Forest based validation using spectral indices such as NDVI and NDBI. The system provides a fully automated workflow for detecting urban sprawl and deforestation, generating alerts and reports with minimal technical intervention. Achieved 92.1% overall accuracy with strong performance in anthropogenic change detection.",
   },
+  {
+    id: 1,
+    year: "April 2026",
+    title: "Speaking System for Mute People by Hand Gesture Using Image Processing",
+    publisher: "INDIAN PATENT OFFICE",
+    url: "https://lnkd.in/p/gbHTPKT9",
+    description:
+      "Co-inventor of the Indian patent 'Speaking System for Mute People by Hand Gesture Using Image Processing' (Application No. 202631019297 A). Developed a machine learning and image processing-based system that translates sign language gestures into text and audible speech in real time.",
+  },
+];
+
+export const achievements = [
   {
     id: 3,
     year: "March 2026",

@@ -1,15 +1,15 @@
-import { achievements } from "../content.js";
+import { publications } from "../content.js";
 import WindowCard from "./WindowCard.js";
 
-export default function Journey() {
+export default function Publications() {
   return (
-    <div className="journey-strip">
+    <div className="publications-strip">
       <div className="section">
-        <h2 className="section-header">Journey</h2>
+        <h2 className="section-header">Publications</h2>
         <div className="timeline">
-          {achievements.map((item) => (
+          {publications.map((item) => (
             <div key={item.id} className="timeline-item">
-              <WindowCard title={item.title} className="timeline-card">
+              <WindowCard title={item.publisher} className="timeline-card">
                 <span className="timeline-year">{item.year}</span>
                 <span className="timeline-title">{item.title}</span>
                 <p className="timeline-desc">{item.description}</p>
