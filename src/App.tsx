@@ -5,6 +5,7 @@ import Skills from "./components/Skills.js";
 import Experience from "./components/Experience.js";
 import Projects from "./components/Projects.js";
 import Publications from "./components/Publications.js";
+import Achievements from "./components/Achievements.tsx";
 import Contact from "./components/Contact.js";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Skills />
         <Projects />
         <Publications />
+        <Achievements />
         <Contact />
       </div>
     </>
