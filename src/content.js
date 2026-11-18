@@ -81,32 +81,29 @@ export const skills = [
   {
     domain: "Programming",
     items: [
-      { name: "JAVA", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openjdk.svg" },
-      { name: "JavaScript", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/javascript.svg" },
-      //{ name: "TypeScript", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/typescript.svg" },
       { name: "Python", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/python.svg" },
+      { name: "JavaScript", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/javascript.svg" },
+      { name: "JAVA", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openjdk.svg" },    
       { name: "SQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/mysql.svg" },
     ],
   },
   {
     domain: "Frontend",
     items: [
-      { name: "HTML", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/html5.svg" },
-      { name: "CSS", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/css3.svg" },
+      { name: "HTML5", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/html5.svg" },
+      { name: "CSS3", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/css3.svg" },
       { name: "React.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/react.svg" },
       { name: "TailwindCSS", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/tailwindcss.svg" },
-      //{ name: "SCSS", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/sass.svg" },
     ],
   },
   {
-    domain: "Backendend",
+    domain: "Backend",
     items: [
-      // { name: "Spring", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/spring.svg" },
-      // { name: "SpringBoot", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/spring.svg" },
+      { name: "FastAPI", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/fastapi.svg" },
       { name: "Node.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/nodedotjs.svg" },
       { name: "Express.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/express.svg" },
       { name: "REST API", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openapiinitiative.svg" },
-      //{ name: "FastAPI", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/fastapi.svg" },
+      //
     ],
   },
   {
@@ -114,26 +111,28 @@ export const skills = [
     items: [
       { name: "MySQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/mysql.svg" },
       { name: "MongoDB", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/mongodb.svg" },
-      //{ name: "Hibernate", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/hibernate.svg" },
-      //{ name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/postgresql.svg" },
-      //{ name: "Redis", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/redis.svg" },
+      { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/postgresql.svg" },
     ],
   },
-  // {
-  //   domain: "AI Concepts",
-  //   items: [
-  //     { name: "LLM Fundamentals", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openai.svg" },
-  //     { name: "RAG", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/langchain.svg" },
-  //     { name: "AI Agents", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openai.svg" },
-  //     { name: "MCP", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/modelcontextprotocol.svg" },
-  //   ],
-  // },
+  {
+    domain: "AI Concepts",
+    items: [
+      { name: "LLM Fundamentals", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openai.svg" },
+      { name: "AI Agents", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openai.svg" },
+      { name: "RAG", icon: "https://cdn.jsdelivr.net/npm/simple-icons@16.38.0/icons/langchain.svg" },
+      { name: "MCP", icon: "https://cdn.jsdelivr.net/npm/simple-icons@16.38.0/icons/modelcontextprotocol.svg" },
+      { name: "Vector DB", icon: "https://cdn.jsdelivr.net/npm/@tabler/icons@3.52.0/icons/outline/database.svg" },
+      { name: "Prompt Engineering", icon: "https://cdn.jsdelivr.net/npm/@tabler/icons@3.52.0/icons/outline/message-chatbot.svg" },
+    ],
+  },
   {
     domain: "Tools",
     items: [
-      //{ name: "Docker", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/docker.svg" },
-      { name: "Postman", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/postman.svg" },
-      { name: "GitHub Actions", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/githubactions.svg" },
+      { name: "Git", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/git.svg" },
+      { name: "GitHub", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/github.svg" },
+      { name: "VS Code", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/visualstudiocode.svg" },
+      { name: "Claude", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/anthropic.svg" },
+      { name: "GitHub Copilot", icon: "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/githubcopilot.svg" },
     ],
   },
 ];
@@ -146,30 +145,23 @@ export const experience = [
     duration: "Sept 2026 – Nov 2026",
     mode: "Remote · Kolkata, India",
     description:
-      "",
+      "Completed a 3-week intensive program in AI, ML, and LLM architectures, followed by a 7-week project work. Built an end-to-end Customer Churn Prediction system with a FastAPI-based backend serving model predictionsthrough REST endpoints for real-time inference. Developed an interactive Streamlit application consuming the API, turning model predictions into usable insights fornon-technical users. Managed the project’s GitHub repository and coordinated with all contributors on code integration, version control,and delivery.",
     //blogLink: "https://stripe.com/blog/fraud-dashboard-internship",
   },
 ];
 
 export const projects = [
-  // {
-  //   id: 10,
-  //   name: "Inshights",
-  //   techStack: ["MongoDB", "Express", "React", "Node.js"],
-  //   description:
-  //     "Inshights",
-  //   github: "https://github.com/Surajit-Tunga",
-  //   level: "Advanced",
-  // },
-  // {
-  //   id: 9,
-  //   name: "Resume ATS Score",
-  //   techStack: ["MongoDB", "Express", "React", "Node.js"],
-  //   description:
-  //     "Interactive resume ATS Checker with AI suggetions.",
-  //   github: "https://github.com/Surajit-Tunga",
-  //   level: "Advanced",
-  // },
+  
+  {
+  id: 9,
+  name: "Enterprise HR Policy Agentic RAG Copilot",
+  techStack: ["LangGraph", "FastAPI", "Pinecone", "OpenAI", "Tavily", "JavaScript"],
+  description:
+    "Agentic RAG copilot for answering HR policy questions using private document retrieval, evidence grading, and web search fallback.",
+  github: "https://github.com/Surajit-Tunga/Enterprise-HR-Policy-Agentic-RAG-Copilot",
+  level: "Advanced",
+},
+  
   {
     id: 8,
     name: "ResumeXpert",

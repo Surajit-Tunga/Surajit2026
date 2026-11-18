@@ -2,7 +2,7 @@ import { useState } from "react";
 import { projects } from "../content.js";
 import WindowCard from "./WindowCard.js";
 
-const LEVELS = ["Intermediate", "Beginner", "Starter"]; // "Expert", "Advanced", 
+const LEVELS = ["Advanced", "Intermediate", "Beginner", "Starter"]; // "Expert", 
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState(LEVELS[0]);
